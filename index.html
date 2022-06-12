@@ -9,6 +9,7 @@
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
 </head>
 <body>
@@ -47,7 +48,7 @@
                      
                       
                     
-                    
+                    <br>
                       <div data-scroll data-scroll-speed="-0.3" data-scroll-position="top" style="top: 55%; left: 25%; position: absolute;" class="button">
                        <a href="#" style="--clr:#1e9bff;"><span>KNOW MORE</span><i></i></a>
                     </div>
@@ -70,7 +71,7 @@
                        
                        
                       </div>
-                      
+                      <br>
                       <div data-scroll data-scroll-speed="-0.3" data-scroll-position="top" style="top: 55%; left: 25%; position: absolute;" class="button">
                         <a href="#" style="--clr:#ff1876;"><span>KNOW MORE</span><i></i></a>
                      </div>
@@ -92,7 +93,7 @@
                        
                        
                       </div>
-                    
+                    <br>
                       <div data-scroll data-scroll-speed="-0.3" data-scroll-position="top" style="top: 55%; left: 25%; position: absolute;" class="button">
                         <a href="#" style="--clr:#6eff3e;"><span>KNOW MORE</span><i></i></a>
                      </div>
@@ -154,7 +155,7 @@
             
     </div>
 </div>
-<section style="height: 100vh; width: 100%; ">
+<section style="height: 100vh; width: 100%;  ">
     <div class="row">
         <div class="col" >
             <h1  >PRODUCTS</h1>
@@ -191,6 +192,38 @@
         </div>
     </div>
 </section>
+<section1>
+    <div class="content">
+     <h2>About-us</h2>
+     <p>
+       A vehicle can have all the features like a good exterior/interior, A powerful engine which makes all the noise. Good combustion of fuel. But its main purpose is to reach the desired destination with the features it has. And how will it find the path to reach the goal in the darkness? Enter - the headlamps which is the strategy that guides your way to the destination on business growth.
+
+Different ways may not lead to a desired destination. So adopting a unique Digital strategy to reach the destination is crucial. This can be best Explained by  Case studies.  
+     </p>
+     <h3>Coustmer Friendly</h3>
+     <p>
+       Adopting a strategy a different business follows may not essentially work for your business. Copying the strategy of a competitor is also most likely to fail as the factor that differentiates your business apart from your competitors is lost. You don't want to be one among the crowd. We can help you find out the best strategy for your business to make you stand out from the crowd. 
+     </p>
+    
+    </div>
+</section1>
+<div class="map-wrapper">
+    <h8>OUR LOCATION</h8>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.88057705204116!2d75.35846309200103!3d12.037377617733613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43ff18129048f%3A0x315187e8529d383c!2sVimala%20Medicals!5e0!3m2!1sen!2sin!4v1655060436220!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
+</div>
+<div class="banner-img">
+    <h9>CONTACT US</h9>     
+    <div class="contact-section"></div>
+       
+    <form  class="contact-form" action="index.html" method="post">
+     <input type="text" class="contact-form-text" placeholder="your name">
+     <input type="email" class="contact-form-text" placeholder="your email id">
+     <input type="number" class="contact-form-text" placeholder="your number">
+     <textarea  class="contact-form-text" placeholder="your message"></textarea>
+     <input type="submit" class="contact-form-btn" value="send">
+    </form>
+    
+</div>
 <a class="gotopbtn" id="go-top" href="#" ><i class='bx bxs-up-arrow-alt'></i></a>
 <script>
     var navList = document.getElementById("nav-lists");
@@ -296,10 +329,16 @@ Math.easeInOutQuad = function (t, b, c, d) {
     </script>
      <script>
         AOS.init({
-            duration: 3000,
+            duration: 1000,
             once: true,
           });
       </script>
+       <script src="./scroll-out.js"></script>
+       <script>
+        ScrollOut({
+           targets: 'h2,p,h3,a' 
+    } )
+    </script>
    
 </body>
 
