@@ -9,6 +9,10 @@
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
 </head>
@@ -336,8 +340,88 @@ Different ways may not lead to a desired destination. So adopting a unique Digit
       <div class="content">&nbsp;LUMINIOUS <SPan class="green"> EXIDE</SPan> AMARON  <SPan class="green"> MICROTEK</SPan> POWERZONE  <SPan class="green">  TATA</SPan> LUMINIOUS <SPan class="green"> EXIDE</SPan> AMARON  <SPan class="green"> MICROTEK</SPan> POWERZONE  <SPan class="green">  TATA</SPan> LUMINIOUS <SPan class="green"> EXIDE</SPan> AMARON  <SPan class="green"> MICROTEK</SPan> POWERZONE  <SPan class="green">  TATA</SPan> </div>
     </div>
   </div>
+  <h1 style="text-align: center; color: red; margin-top: 50px; ">Testimonials</h1>
+  <section2>
+    
+    <div class="swiper mySwiper">
+       
+        <div class="swiper-wrapper">
+            
+          <div class="swiper-slide">
+             
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+
+            </div>
+            
+            <div class="text">
+                <p>"I am happy on buying inverter from Inverter Solutions I am happy on buying inverter from Inverter Solutions "</p>
+              
+                <h3>Ijas Ahammed <br><span style="color: red;">Engineer in zoominfo</span> </h3>
+            </div>
+        </div>
+          <div class="swiper-slide"> <div class="box">
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+            </div>
+            <div class="text">
+                <p>"Awosome Service.I am happy on buying inverter from Inverter Solutions I am happy on buying inverter from Inverter Solutions"</p>
+                <h3>Imthiyas Ahammed <br><span style="color: red;">Engineer in Al-thair Motors</span> </h3>
+            </div>
+        </div></div>
+          <div class="swiper-slide"> <div class="box">
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+            </div>
+            <div class="text">
+                <p>"Most discounted place ever.I am happy on buying inverter from Inverter Solutions"</p>
+                <h3>Kb Nowshad Ali<br><span style="color: red;">Buissnessman</span> </h3>
+            </div>
+        </div></div>
+          
+        </div>
+        <div class="swiper-pagination"><div class="text">
+            <p>I am happy on buying inverter from Inverter Solutions</p>
+            <h3>Ijas Ahammed <br>Engineer in zoominfo</h3>
+        </div></div>
+      </div>
+   <!-- <div class="title-white">
+        <h2 class="titletext">They Said About us</h2>
+        <p>Customer Happiness is our Happiness</p>
+    </div>
+    <div class="customer">
+        <div class="box">
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+            </div>
+            <div class="text">
+                <p>I am happy on buying inverter from Inverter Solutions</p>
+                <h3>Ijas Ahammed <br>Engineer in zoominfo</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+            </div>
+            <div class="text">
+                <p>I am happy on buying inverter from Inverter Solutions</p>
+                <h3>Ijas Ahammed <br>Engineer in zoominfo</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="./images/profile picture.webp" alt="">
+            </div>
+            <div class="text">
+                <p>I am happy on buying inverter from Inverter Solutions</p>
+                <h3>Ijas Ahammed <br>Engineer in zoominfo</h3>
+            </div>
+        </div>
+    </div>-->
+  </section2>
+  
 <div class="map-wrapper">
-    <h8 >OUR LOCATION</h8><br><br>
+    <h1 style="color: red;">OUR LOCATION</h1><br><br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.88057705204116!2d75.35846309200103!3d12.037377617733613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43ff18129048f%3A0x315187e8529d383c!2sVimala%20Medicals!5e0!3m2!1sen!2sin!4v1655060436220!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
 </div>
 <div class="banner-img">
@@ -520,7 +604,18 @@ Math.easeInOutQuad = function (t, b, c, d) {
     dots[slideIndex-1].className += " active";
   }
         </script>
-   
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 4,
+              spaceBetween: 30,
+              centeredSlides: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+            });
+          </script>
 </body>
 
 </html>
