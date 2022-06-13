@@ -1336,7 +1336,7 @@ h1{
  
   .row{
     display: block;
-   height: 325vh;
+   height: 400vh;
    margin: 0;
    padding: 0%;
    background: #000;
@@ -1521,7 +1521,7 @@ section1 .content a[data-scroll="in"]{
     background: black;
   }
   section1{
-    margin-top: 500%;
+    margin-top: 600%;
     position: relative;
     width: 100%;
     height: 100vh;
