@@ -2434,9 +2434,9 @@ footer .container1 .sec.aboutus p{
 
 .gotopbtn{
     position: fixed;
-    width: 50px;
-    height: 50px;
-    background: red;
+    width: 60px;
+    height: 60px;
+    background:#FF9800;
     bottom: 40px;
     right:50px;
    
@@ -2455,6 +2455,15 @@ footer .container1 .sec.aboutus p{
     color: black;
     transform: rotate(360deg);
     transition: 0.5s;
+  }
+  @media screen and (max-width:650px) {
+    .gotopbtn{
+      right: 15px;
+      width: 40px;
+    height: 43px;
+    bottom: 50px;
+    }
+    
   }
 
 ::-webkit-scrollbar{
