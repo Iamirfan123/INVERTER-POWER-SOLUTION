@@ -184,7 +184,7 @@ header{
 
 
 .container .navbar .icon-bar {
-  padding: 18px 8px;
+  padding: 15px 8px;
   width: 50px;
   height: 60px;
   display: none;
@@ -194,11 +194,11 @@ header{
 }
 
 .container .navbar .icon-bar i {
-  background-color: #ffffff;
+ 
   height: 2px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1250px) {
   .container {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -209,6 +209,9 @@ header{
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+  .container .logo a img{
+    left: 20px;
   }
 
   .container .navbar {
@@ -249,10 +252,12 @@ header{
     background: #ffffff;
     width: 100%;
     height: 100%;
-    overflow: auto;
-    -webkit-transition: left .3s;
-    -o-transition: left .3s;
-    transition: left .3s;
+    margin: 0;
+    overflow: hidden;
+    
+    -webkit-transition: left .5s;
+    -o-transition: left .5s;
+    transition: left .5s;
     text-align: center;
   }
 
@@ -1705,7 +1710,7 @@ section2{
 }
 .banner-img{
   
-  background: url(./images/contact\ us.jpg);
+  background: #111;
   -webkit-backgroundsize:cover ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2393,10 +2398,14 @@ footer .container1 .sec.aboutus p{
 	box-shadow: 2px 2px 3px #999;
         z-index:100;
         transition: 0.5s;
+      
 }
 .whatsapp_float:hover{
   background:white;
   color: black;
+    transform: rotate(360deg);
+    transition: 0.5s;
+  
 }
 
 .whatsapp-icon {
@@ -2414,6 +2423,7 @@ footer .container1 .sec.aboutus p{
         right: 10px;
         font-size: 22px;
     }
+    
 }
 
 
@@ -2429,7 +2439,7 @@ footer .container1 .sec.aboutus p{
     background: red;
     bottom: 40px;
     right:50px;
-    transform: rotate(180deg);
+   
     text-decoration: none;
     text-align: center; line-height: 50px;
     color: white;
@@ -2437,7 +2447,7 @@ footer .container1 .sec.aboutus p{
     opacity: 1;
     z-index: 2;
     transition: all 0.5s;
-    border-radius: 10px;
+    border-radius: 25px;
     
   }
   .gotopbtn:hover{
