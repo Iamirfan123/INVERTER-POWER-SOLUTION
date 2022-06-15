@@ -821,6 +821,7 @@ h7{
       font-size: 35px;
   top:20%;
   left: 0%;
+  margin-left: 50px;
   position: absolute;
      
       
@@ -828,11 +829,13 @@ h7{
     }
     .heading1{
       display: inline block;
-       min-width: 200px;
+       min-width: 150px;
         min-height: 500px;
-        font-size: 35px;
+        font-size: 30px;
     top: 20%;
     left: 0%;
+    margin-left: 20px;
+
     position: absolute;
        
         
@@ -842,9 +845,10 @@ h7{
         display: inline block;
          min-width: 200px;
           min-height: 500px;
-          font-size: 35px;
+          font-size: 30px;
       top: 20%;
       left: 0%;
+      margin-left: 20px;
       position: absolute;
   
          
@@ -860,9 +864,12 @@ h7{
       max-width: 500px;
      align-items: center;
      display: inline;
+     margin-left: -50px;
+     
   
   
     }
+   
     
   }
   @media screen and (min-width:600px){
